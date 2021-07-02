@@ -1,0 +1,11 @@
+body {
+    padding: 70px;
+}
+
+footer {
+    padding: 10px;
+}
+
+.blockquote {
+    display: flex;
+}
