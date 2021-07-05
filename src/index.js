@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // useContext
-
-
+import { MainApp } from './components/09-useContext/MainApp';
 
 // UseReducer
 // import { TodoApp } from './components/08-useReducer/TodoApp';
@@ -27,8 +26,8 @@ import ReactDOM from 'react-dom';
 ReactDOM.render(
   <>
     <hr />
-    <h3>08: TodoApp</h3>
-    <TodoApp />     
+    <h3>09: MainApp</h3>
+    <MainApp />     
     
     {/* <hr />
     <h3>08: TodoApp</h3>
