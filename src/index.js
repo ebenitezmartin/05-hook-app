@@ -1,23 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Padre } from './components/07-tarea-memo/Padre';
-import { CallbackHook } from './components/06-memos/CallbackHook';
-import { MemoHook } from './components/06-memos/MemoHook';
-import { Memorize } from './components/06-memos/Memorize';
-import { LayoutEffect } from './components/05-useLayoutEffect/LayoutEffect';
-import { RealExampleRef } from './components/04-useRef/RealExampleRef';
-import { FocusScreen } from './components/04-useRef/FocusScreen';
-import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
-import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
-import { SimpleForm } from './components/02-useEffect/SimpleForm';
-import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
-import { CounterApp } from './components/01-useState/CounterApp';
-import { HookApp } from './HookApp';
+
+// useContext
+
+
+
+// UseReducer
+// import { TodoApp } from './components/08-useReducer/TodoApp';
+// import './components/08-useReducer/intro-reducer';
+
+// import { Padre } from './components/07-tarea-memo/Padre';
+// import { CallbackHook } from './components/06-memos/CallbackHook';
+// import { MemoHook } from './components/06-memos/MemoHook';
+// import { Memorize } from './components/06-memos/Memorize';
+// import { LayoutEffect } from './components/05-useLayoutEffect/LayoutEffect';
+// import { RealExampleRef } from './components/04-useRef/RealExampleRef';
+// import { FocusScreen } from './components/04-useRef/FocusScreen';
+// import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
+// import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
+// import { SimpleForm } from './components/02-useEffect/SimpleForm';
+// import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
+// import { CounterApp } from './components/01-useState/CounterApp';
+// import { HookApp } from './HookApp';
 
 
 ReactDOM.render(
   <>
     <hr />
+    <h3>08: TodoApp</h3>
+    <TodoApp />     
+    
+    {/* <hr />
+    <h3>08: TodoApp</h3>
+    <TodoApp />  */}
+
+
+    {/* <hr />
     <h3>07 - Padre:</h3>
     <Padre />         
     <hr />
@@ -25,7 +43,7 @@ ReactDOM.render(
     <CallbackHook />       
     <hr />
     <h3>06-B - MemoHook:</h3>
-    <MemoHook />           
+    <MemoHook />           cke es la 
     <hr />
     <h3>06-A - Memorize:</h3>
     <Memorize />         
@@ -55,8 +73,9 @@ ReactDOM.render(
     <CounterApp />
     <hr />
     <h3>00 - HookApp:</h3>
-    <HookApp />
+    <HookApp /> */}
   </>,
   document.getElementById('root')
 );
+
 
